@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context=".PertamaActivity">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/tv_info"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/btn_browse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Browse"/>
+
+    <Button
+            android:id="@+id/btn_send_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send Text"/>
+
+    <Button
+            android:id="@+id/btn_telepon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Call"/>
+
+    <Button
+            android:id="@+id/btn_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share"/>
+
+    <Button
+            android:id="@+id/btn_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"/>
+
+    <Button
+            android:id="@+id/btn_pindah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ke Activity 2"/>
+</LinearLayout>
